@@ -1,0 +1,123 @@
+*{margin:0; padding:0;}
+body{
+  background-color:#eee8ae;
+}
+#wrapper{
+  width:960px;
+  margin:10px auto;
+}
+.header{
+  background:orange;
+  padding:15px;
+  font-family: 'Concert One', cursive;
+  border-bottom: 5px solid green;
+}
+.header h2{
+  color:white;
+}
+.header p{
+  color:grey;
+}
+.navigation{
+  background:white;
+  height: 38px;
+  border-bottom: 5px solid  green;
+}
+.navigation ul{
+  background:white;
+  list-style-type: none;
+}
+.navigation ul li{
+  float:left;
+  border-right: 1px solid green;
+}
+.navigation ul li:last-child{
+  border-right: none;
+  position: relative;
+}
+.navigation ul li a{
+  text-decoration: none;
+  color:green;
+  display:block;
+  padding:10px 20px;
+  font-weight: bold;
+  font-family: 'Concert One', cursive;
+}
+.navigation ul li a:hover{
+  color:grey;
+}
+.navigation ul li ul{
+  position: absolute;
+  display:none;
+}
+.navigation ul li:hover ul{
+  display:block;
+}
+.navigation ul li ul li{
+  float:none;
+  border-right:none;
+  border-bottom:2px solid green;
+  
+}
+.navigation ul li ul li:last-child{
+  border-bottom: none;
+}
+.section img{
+  width:960px;
+  height: 600px;
+  vertical-align:middle;
+}
+.content_wrapper{
+  background:white;
+  border-top:5px solid green;
+  padding:10px;
+  overflow:hidden;
+}
+.content{
+  width:55%;
+  float:left;
+  margin-right: 5%;
+}
+.content h2{
+  color:green;
+  font-family: 'Concert One', cursive;
+}
+.content p{
+  color:green;
+  font-family: 'Concert One', cursive;
+  text-transform: uppercase;
+  text-align: justify;
+  margin-top: 10px;
+}
+.sidebar{
+  width:40%;
+  float:left;
+}
+.sidebar h2{
+  color:green;
+  font-family: 'Concert One', cursive;
+}
+.sidebar ul{
+  margin-top:10px;
+}
+.sidebar ul li{
+  list-style-type: square;
+  padding:5px;
+}
+.sidebar ul li a{
+  text-decoration: none;
+  color:green;
+  text-transform: capitalize;
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer{
+  background:black;
+  padding:7px;
+}
+.footer p{
+  color:white;
+  font-family: 'Concert One', cursive;
+  text-align: center;
+}
